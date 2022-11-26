@@ -7,10 +7,10 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['landing-page.component.css'],
 })
 export class LandingPage {
-  raw6wrv: string = ' '
-  raweexi: string = ' '
-  raw4i6h: string = ' '
-  raw4q6g: string = ' '
+  raww4y9: string = ' '
+  rawl5li: string = ' '
+  rawgsv3: string = ' '
+  rawja8n: string = ' '
 
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Outapi-town')
