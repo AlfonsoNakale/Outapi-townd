@@ -7,16 +7,16 @@ import { AppComponent } from './app.component'
 
 const routes = [
   {
+    path: 'about-us',
+    loadChildren: () =>
+      import('./pages/about-us/about-us.module').then((m) => m.AboutUsModule),
+  },
+  {
     path: '',
     loadChildren: () =>
       import('./pages/landing-page/landing-page.module').then(
         (m) => m.LandingPageModule
       ),
-  },
-  {
-    path: 'about-us',
-    loadChildren: () =>
-      import('./pages/about-us/about-us.module').then((m) => m.AboutUsModule),
   },
 ]
 

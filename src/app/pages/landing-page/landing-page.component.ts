@@ -7,17 +7,17 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['landing-page.component.css'],
 })
 export class LandingPage {
-  rawflp8: string = ' '
-  rawdbbm: string = ' '
-  rawxs2w: string = ' '
-  rawtkde: string = ' '
+  raw6wrv: string = ' '
+  raweexi: string = ' '
+  raw4i6h: string = ' '
+  raw4q6g: string = ' '
 
   constructor(private title: Title, private meta: Meta) {
-    this.title.setTitle('Travel Agency')
+    this.title.setTitle('Outapi-town')
     this.meta.addTags([
       {
         property: 'og:title',
-        content: 'Travel Agency',
+        content: 'Outapi-town',
       },
     ])
   }
